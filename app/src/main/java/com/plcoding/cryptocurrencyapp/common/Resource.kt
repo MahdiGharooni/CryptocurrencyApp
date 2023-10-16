@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.common
+package com.plcoding.cryptocurrencyapp.common
 
 
 sealed class Resource<T>(val data: T? = null, val message: String? = null) {

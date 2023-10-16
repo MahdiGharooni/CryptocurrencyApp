@@ -1,7 +1,7 @@
-package com.plcoding.cryptocurrencyappyt.domain.model
+package com.plcoding.cryptocurrencyapp.domain.model
 
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.Tag
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.TeamMember
+import com.plcoding.cryptocurrencyapp.data.remote.dto.Tag
+import com.plcoding.cryptocurrencyapp.data.remote.dto.TeamMember
 
 data class CoinDetail(
     val coinId: String,
