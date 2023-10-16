@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.data.remote.dto
+package com.plcoding.cryptocurrencyapp.data.remote.dto
 
 data class Whitepaper(
     val link: String,

@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.data.remote.dto
+package com.plcoding.cryptocurrencyapp.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
