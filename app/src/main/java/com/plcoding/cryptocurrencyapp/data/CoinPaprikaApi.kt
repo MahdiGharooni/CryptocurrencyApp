@@ -1,7 +1,7 @@
-package com.plcoding.cryptocurrencyappyt.data
+package com.plcoding.cryptocurrencyapp.data
 
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.CoinDetailDto
-import com.plcoding.cryptocurrencyappyt.data.remote.dto.CoinDto
+import com.plcoding.cryptocurrencyapp.data.remote.dto.CoinDetailDto
+import com.plcoding.cryptocurrencyapp.data.remote.dto.CoinDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 
@@ -9,7 +9,7 @@ interface CoinPaprikaApi {
     @GET("v1/coins")
     suspend fun getCoins(): List<CoinDto>
 
-    @GET("v1/coin/{coinId}")
+    @GET("v1/coins/{coinId}")
     suspend fun getCoinById(
         @Path("coinId") coinId: String
     ): CoinDetailDto
