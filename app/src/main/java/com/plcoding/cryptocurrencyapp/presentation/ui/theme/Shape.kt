@@ -1,4 +1,4 @@
-package com.plcoding.cryptocurrencyappyt.presentation.ui.theme
+package com.plcoding.cryptocurrencyapp.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
